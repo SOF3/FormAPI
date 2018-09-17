@@ -67,13 +67,13 @@ class CustomForm extends Form {
 
     /**
      * @param string $text
-     * @param int $min
-     * @param int $max
-     * @param int $step
-     * @param int $default
+     * @param float $min
+     * @param float $max
+     * @param float $step
+     * @param float $default
      * @param string|null $label
      */
-    public function addSlider(string $text, int $min, int $max, int $step = -1, int $default = -1, ?string $label = null) : void {
+    public function addSlider(string $text, float $min, float $max, float $step = -1, float $default = -1, ?string $label = null) : void {
         $content = ["type" => "slider", "text" => $text, "min" => $min, "max" => $max];
         if($step !== -1) {
             $content["step"] = $step;
