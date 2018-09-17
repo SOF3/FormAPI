@@ -4,4 +4,6 @@ branches:
 projects:
   FormAPI:
     path: ""
+    type: library
+    model: virion
 ...
