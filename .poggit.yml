@@ -2,6 +2,9 @@
 branches:
 - master
 projects:
+  FormAPI-plugin:
+    path: ""
+    type: plugin
   FormAPI:
     path: ""
     type: library
